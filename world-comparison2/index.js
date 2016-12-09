@@ -4,7 +4,7 @@ var worldJson = require('../map/world.json');
 echarts.registerMap('world', worldJson);
 var myChart = echarts.init(document.getElementById('main'));
 
-var option = {
+var option ={
   baseOption: {
     title: {
       text: '大国崛起：改革开放以来中国GDP排名变化情况',
