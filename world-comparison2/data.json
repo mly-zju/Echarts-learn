@@ -2,16 +2,16 @@
   {
     "time": 1970,
     "data": [
-      {"name":"United States of America","value":[1025000,31.222]},
-      {"name":"Russia","value":[433412,13.202]},
-      {"name":"Japan","value":[209071,6.369]},
-      {"name":"Germany","value":[208867,6.362]},
-      {"name":"France","value":[146982,4.477]},
-      {"name":"United Kingdom","value":[124970,3.807]},
-      {"name":"Italy","value":[109260,3.328]},
-      {"name":"China","value":[91506, 2.787]},
-      {"name":"Canada","value":[86303,2.629]},
-      {"name":"India","value":[61470,1.873]}
+      {"name":"United States of America","value":[1025000,31.222,"美国"]},
+      {"name":"Russia","value":[433412,13.202,"俄国"]},
+      {"name":"Japan","value":[209071,6.369,"日本"]},
+      {"name":"Germany","value":[208867,6.362,"德国"]},
+      {"name":"France","value":[146982,4.477,"法国"]},
+      {"name":"United Kingdom","value":[124970,3.807,"英国"]},
+      {"name":"Italy","value":[109260,3.328,"意大利"]},
+      {"name":"China","value":[91506,2.787,"中国"]},
+      {"name":"Canada","value":[86303,2.629,"加拿大"]},
+      {"name":"India","value":[61470,1.873,"印度"]}
     ]
   }
 ]
