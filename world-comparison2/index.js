@@ -7,7 +7,7 @@ var myChart = echarts.init(document.getElementById('main'));
 var option = {
   baseOption: {
     title: {
-      text: '大国崛起：改革开放以来中国gdp排名变化情况',
+      text: '大国崛起：改革开放以来中国GDP排名变化情况',
       left: 'center',
       top: 'top',
       textStyle: {
@@ -51,6 +51,7 @@ var option = {
         roam: true,
         top: '10%',
         bottom: '25%',
+        left: 10,
         itemStyle: {
           emphasis: {
             label: {
@@ -74,10 +75,23 @@ var option = {
             }
           }
         },
-        data: data[0].data.map(function(ele, index) {
+        data: data[0].data.map(function(ele) {
           return ele.value[0]
         }).sort(function(a, b) {
           return a > b;
+        })
+      },{
+        type: 'pie',
+        radius: '20%',
+        center: ['70%','85%'],
+        tooltip: {
+          formatter: '{b} {d}%'
+        },
+        data: data[0].data.map(function(ele){
+          return {
+            name: ele.value[2],
+            value: ele.value[0]
+          }
         })
       }
     ]
